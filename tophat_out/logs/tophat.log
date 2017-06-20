@@ -1,0 +1,27 @@
+
+[2017-06-20 13:33:17] Beginning TopHat run (v2.0.14)
+-----------------------------------------------
+[2017-06-20 13:33:17] Checking for Bowtie
+		  Bowtie version:	 2.0.6.0
+[2017-06-20 13:33:17] Checking for Bowtie index files (genome)..
+[2017-06-20 13:33:17] Checking for reference FASTA file
+	Warning: Could not find FASTA file dummy_reference.fa
+[2017-06-20 13:33:17] Reconstituting reference FASTA file from Bowtie index
+  Executing: /usr/bin/bowtie2-inspect dummy_reference > ./tophat_out/tmp/dummy_reference.fa
+[2017-06-20 13:33:17] Generating SAM header for dummy_reference
+[2017-06-20 13:33:17] Preparing reads
+
+WARNING: read pairing issues detected (check prep_reads.log) !
+
+	 left reads: min. length=50, max. length=50, 5 kept reads (0 discarded)
+	right reads: min. length=50, max. length=50, 5 kept reads (0 discarded)
+[2017-06-20 13:33:17] Mapping left_kept_reads to genome dummy_reference with Bowtie2 
+[2017-06-20 13:33:17] Mapping left_kept_reads_seg1 to genome dummy_reference with Bowtie2 (1/2)
+[2017-06-20 13:33:17] Mapping left_kept_reads_seg2 to genome dummy_reference with Bowtie2 (2/2)
+[2017-06-20 13:33:17] Mapping right_kept_reads to genome dummy_reference with Bowtie2 
+[2017-06-20 13:33:17] Searching for junctions via segment mapping
+Warning: junction database is empty!
+[2017-06-20 13:33:17] Reporting output tracks
+-----------------------------------------------
+[2017-06-20 13:33:17] A summary of the alignment counts can be found in ./tophat_out/align_summary.txt
+[2017-06-20 13:33:17] Run complete: 00:00:00 elapsed

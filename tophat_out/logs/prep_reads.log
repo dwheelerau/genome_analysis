@@ -1,0 +1,6 @@
+prep_reads v2.0.14 (4318)
+---------------------------
+WARNING: read pairing issues detected (check prep_reads.log) !
+ Pair #3 name mismatch: @7001326F:90:CB0RKANXX:8:2209:21080:3009 vs 7001326F:90:CB0RKANXX:8:2209:21080:3009
+0 out of 5 reads have been filtered out
+0 out of 5 read mates have been filtered out
